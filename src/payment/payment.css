@@ -1,0 +1,27 @@
+.btn-succes {
+    background-color: rgb(176, 36, 52);
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.btn-succes:hover {
+    color: white;
+    background-color: rgb(168, 31, 47);
+}
+.btn-succes:active {
+    color: white;
+    background-color: rgb(158, 32, 47);
+}
+
+.backImage{
+    background-color: rgb(5, 24, 75);
+    height: 100%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

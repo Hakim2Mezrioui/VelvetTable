@@ -1,0 +1,87 @@
+.background .img1 {
+    background-image: url("../../assets/about_images/catering.jpg");
+    /* height: 20em; */
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.white {
+    background-color: white;
+    height: 20em;
+}
+
+.white2 {
+    height: fit-content;
+    padding-block: 3em;
+}
+
+.white2 p{
+    line-height: 1.5em;
+    /* padding-left: 1em; */
+}
+
+.white2 h3 {
+    color: rgb(176, 36, 52);
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.img2 {
+    background-image: url("../../assets/about_images/lisa_fotios.jpg");
+    height: 40vh;    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSection {
+    --width: 50vw;
+    position: absolute;
+    top: 30vh;
+    width: var(--width);
+    /* left: calc(50vw - var(--width)/2); */
+    background-color: white;    
+    padding: 2em;
+    min-width: 1000px;
+    margin: auto;    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainSection div:first-child {
+    text-align: center;
+}
+
+.mainSection p {
+    padding: 1em 3em;
+}
+
+.mainSection div:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.mainSection img {
+    height: 25em;
+    width: 18em;
+}
+
+@media (max-width: 1100px) {
+    .mainSection img {
+        width: 13em;
+        height: 20em;
+    }
+    .mainSection {
+        min-width: 800px;
+    }
+}
+
+@media (max-width: 1027px) {
+    .mainSection {
+        top: 26.5em;
+    }
+}

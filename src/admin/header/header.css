@@ -1,0 +1,33 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+header.admin {
+    padding: 1em 5em;
+    background-color: rgb(219, 219, 219);
+}
+
+header.admin ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 1em;
+    gap: 3em;
+}
+
+header.admin ul li a{
+    color: navy;
+    text-decoration: none;
+    position: relative;
+    padding: 1em 1.5em;
+}
+
+header.admin ul li a:hover {
+    background-color: rgb(202, 202, 202);
+    border-radius: .5em;
+}
+
+.activeLinkPage  {
+    border-radius: .5em;
+    background-color: rgb(202, 202, 202);
+}

@@ -1,0 +1,108 @@
+ insert into menu (title, description, price, category, path_image)
+ values("Grilled shrimp skewers with citrus glaze", "Succulent shrimp marinated in a tangy citrus glaze, skewered and grilled to perfection. Served with a refreshing dipping sauce.", 7, "Appetizer", "Grilled_Shrimp_Skewers_with_Citrus_Glaze");
+
+ insert into menu (title, description, price, category, path_image)
+ values("Caprese Salad with Fresh Mozzarella and Balsamic Reduction", "A classic Italian appetizer consisting of ripe tomatoes, creamy fresh mozzarella, and fresh basil leaves. Drizzled with a rich balsamic reduction.", 8, "Appetizer", "Caprese_Salad_with_Fresh_Mozzarella_and_Balsamic_Reduction");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Crispy Calamari with Spicy Marinara Sauce", "Tender rings of calamari coated in a light and crispy batter, fried to a golden brown. Served with a zesty and slightly spicy marinara sauce.", 6, "Appetizer", "Crispy_Calamari_with_Spicy_Marinara_Sauce");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Bruschetta with Tomato, Basil, and Garlic", "Slices of crusty bread toasted and topped with a mixture of diced ripe tomatoes, fresh basil, garlic, and extra virgin olive oil.",9 , "Appetizer", "Bruschetta_with_Tomato_Basil_and_Garlic");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Mini Beef Sliders with Caramelized Onions and Gruyere Cheese", "Petite-sized beef patties cooked to perfection, topped with sweet caramelized onions and melted Gruyere cheese. Served on mini buns.",8 , "Appetizer", "Mini_Beef_Sliders_with_Caramelized_Onions_and_Gruyere_Cheese");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Spinach and Artichoke Dip", "Spinach and artichoke dip is a creamy blend of spinach, artichoke hearts, cream cheese, and grated Parmesan. Served warm with tortilla chips or toasted bread.",6 , "Appetizer", "Spinach_and_Artichoke_Dip");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Chicken Satay Skewers", "Thin strips of marinated chicken are threaded onto skewers and grilled or charbroiled. They are often served with a peanut sauce for dipping, along with a side of cucumber salad or pickled vegetables.",7 , "Appetizer", "Chicken_Satay_Skewers");
+ insert into menu (title, description, price, category, path_image)
+ values("Caprese skewers", "Caprese skewers feature cherry tomatoes, fresh mozzarella cheese, and basil leaves threaded onto skewers. Drizzled with balsamic glaze and sprinkled with salt and pepper.",4 , "Appetizer", "Caprese_skewers");
+ 
+ insert into menu (title, description, price, category, path_image)
+ values("Seafood risotto with saffron sauce", "the risotto is prepared with a mixture of fresh seafood such as prawns, mussels and calamari, and rice. with a saffron sauce.",10 , "Main course", "Seafood_risotto_with_saffron_sauce");
+ 
+insert into menu (title, description, price, category, path_image)
+ values("Wellington Beef Tenderloin with Truffled Mashed Potatoes", "Beef Tenderloin Wellington is a tender, juicy piece of beef tenderloin coated in a delicious flaky crust. Served with truffled mashed potatoes,",23 , "Main course", "Wellington_Beef_Tenderloin_with_Truffled_Mashed_Potatoes");
+ 
+insert into menu (title, description, price, category, path_image)
+values("Herb crusted rack of lamb", "A tasty and juicy rack of lamb, coated in a crust of fresh herbs, It is accompanied by carefully prepared seasonal vegetables.",30 , "Main course", "Herb_crusted_rack_of_lamb");
+
+insert into menu (title, description, price, category, path_image)
+values("Duck breast glazed with honey", "The duck breast is prepared with a honey glaze and cooked to perfection. Accompanied by a silky celeriac purée and a full-bodied reduced juice.",21 , "Main course", "Duck_breast_glazed_with_honey");
+
+insert into menu ( title, description, price, category, path_image)
+values("Grilled Salmon Fillet with Dill Sauce and Rice Pilaf", "A fresh salmon fillet is grilled to perfection, then topped with a light and aromatic dill sauce. It is served with rice pilaf with herbs.",23 , "Main course", "Grilled_Salmon_Fillet_with_Dill_Sauce_and_Rice_Pilaf");
+
+insert into menu ( title, description, price, category, path_image)
+values("Risotto with wild mushrooms and parmesan", "A rich and creamy Italian dish made with slow-cooked Arborio rice in a flavored broth, tossed with sautéed wild mushrooms and grated parmesan cheese.",12 , "Main course", "Risotto_with_wild_mushrooms_and_parmesan");
+insert into menu ( title, description, price, category, path_image)
+values("Chicken curry with basmati rice", "Tender pieces of chicken are simmered in a fragrant curry sauce, prepared with spices. The dish is served with lightly flavored basmati rice.",10 , "Main course", "Chicken_curry_with_basmati_rice");
+
+insert into menu ( title, description, price, category, path_image)
+values("Filet Mignon with Red Wine Reduction", "A succulent and juicy filet mignon steak cooked to perfection, topped with a rich red wine reduction sauce. Served with creamy mashed potatoes and sautéed garlic spinach.",23 , "Main course", "Filet_Mignon_with_Red_Wine_Reduction");
+
+insert into menu (title, description, price, category, path_image)
+values ("Dark chocolate soufflé with raspberry coulis", "this dark chocolate soufflé is prepared with care and expertise. Accompanied by a fresh raspberry coulis and a touch of whipped cream",7 , "Dessert", "Dark_chocolate_soufflé_with_raspberry_coulis");
+
+insert into menu (title, description, price, category, path_image)
+values ("Red fruit tartlet with bourbon vanilla sorbet", "A delicate and colorful tartlet, filled with fresh red fruits such as strawberries, raspberries and blueberries.",6 , "Dessert", "Red_fruit_tartlet_with_bourbon_vanilla_sorbet");
+
+insert into menu (title, description, price, category, path_image)
+values ("Variation of strawberries with light mousse", "Strawberries are presented in different forms. Accompanying the strawberries, a light lemon mousse brings a note of subtle acidity",5 , "Dessert", "Variation_of_strawberries_with_light_mousse");
+
+insert into menu (title, description, price, category, path_image)
+values ("Apple pie with vanilla whipped cream", "A crisp, golden pie filled with tender, fragrant apple slices, sprinkled with cinnamon and sugar. It is served warm, accompanied by a generous portion of vanilla whipped cream.",6 , "Dessert", "Apple_pie_with_vanilla_whipped_cream");
+
+insert into menu (title, description, price, category, path_image)
+values ("Creme brulee with vanilla", "A smooth vanilla cream is gently cooked until set, then dusted with sugar and caramelized with a blowtorch to form a thin layer of crunchy caramel.",5 , "Dessert", "Creme_brulee_with_vanilla");
+
+insert into menu (title, description, price, category, path_image)
+values ("chocolate fondant with raspberry coulis", "A dense and melting chocolate cake on the inside, with a slightly crispy crust on the outside. It is often served with a tangy raspberry coulis to contrast with the richness of the chocolate.",4 , "Dessert", "Chocolate_fondant_with_raspberry_coulis");
+
+insert into menu ( title, description, price, category, path_image)
+values("Virgin Mojito", "It is a popular mocktail that offers a burst of flavors and a delightful combination of sweet and tangy tastes.",5 , "Drinks", "Virgin_Mojito");
+
+insert into menu ( title, description, price, category, path_image)
+values("Mango Lassi", "Smooth and creamy beverage originating from the Indian subcontinent. It is a popular drink made with the perfect blend of ripe mangoes, yogurt, milk, and a touch of sweetness",4 , "Drinks", "Mango_Lassi");
+
+insert into menu ( title, description, price, category, path_image)
+values("Fresh Fruit Smoothie", "It is a delightful and wholesome beverage made from a medley of ripe and juicy fruits. It is a popular choice for those looking to enjoy the natural flavors and nutritional benefits of fresh produce.",4 , "Drinks", "Fresh_Fruit_Smoothie");
+
+insert into menu ( title, description, price, category, path_image)
+values("Moroccan Mint Tea", "It is a simple yet refreshing blend of green tea leaves and fresh spearmint leaves, combined with hot water and a touch of sugar. The tea is brewed in a special teapot called a Barrad.",2 , "Drinks", "Moroccan_Mint_Tea");
+
+insert into menu ( title, description, price, category, path_image)
+values("Pomegranate Mocktail", "It is a refreshing drink that combines the sweet and tangy flavors of pomegranate with a variety of other ingredients for a delicious and invigorating taste.",4 , "Drinks", "Pomegranate_Mocktail");
+
+insert into menu ( title, description, price, category, path_image)
+values("reshly Squeezed Orange Juice", "It is a simple and refreshing drink that captures the natural sweetness and tanginess of freshly picked oranges.",1 , "Drinks", "Freshly_Squeezed_Orange_Juice");
+
+insert into menu ( title, description, price, category, path_image)
+values("Virgin Strawberry Daiquiri", "It is a refreshing blend of fresh strawberries, ice, and a touch of sweetness. The ingredients are blended together until smooth, resulting in a vibrant pink beverage.",6 , "Drinks", "Virgin_Strawberry_Daiquiri");
+
+insert into menu ( title, description, price, category, path_image)
+values("Rose Lemonade", "It is a delightful blend of rose water, freshly squeezed lemon juice, and a touch of sweetness. ",1 , "Drinks", "Rose_Lemonade");
+
+insert into menu ( title, description, price, category, path_image)
+values("Classic Italian Menu", "Appetizer: Caprese Salad with Fresh Mozzarella and Balsamic Reduction. 
+Main Course: Homemade Ravioli Stuffed with Spinach and Ricotta, topped with Tomato Basil Sauce. 
+Dessert: Tiramisu with Layers of Espresso-Soaked Ladyfingers and Mascarpone Cream.
+",45 , "special menus", "Classic_Italian_Menu");
+
+insert into menu ( title, description, price, category, path_image)
+values("Asian Fusion Menu", "Appetizer: Crispy Spring Rolls with Sweet Chili Dipping Sauce. 
+Main Course: Pan-Seared Sesame-Crusted Ahi Tuna with Ginger-Soy Glaze, served with Steamed Jasmine Rice and Stir-Fried Vegetables. 
+Dessert: Green Tea Matcha Cheesecake with Red Bean Paste Drizzle.",45 , "special menus", "Asian_Fusion_Menu");
+
+insert into menu ( title, description, price, category, path_image)
+values("Farm-to-Table Menu", "Appetizer: Seasonal Vegetable Tart with a Flaky Whole Wheat Crust. 
+Main Course: Grilled Grass-Fed Beef Tenderloin with Herb Butter, accompanied by Roasted Root Vegetables and Whipped Yukon Gold Potatoes. 
+Dessert: Warm Apple Galette with Cinnamon Crumble and Vanilla Bean Ice Cream.",55 , "special menus", "Farm_to_Table_Menu");
+
+insert into menu ( title, description, price, category, path_image)
+values("Seafood Extravaganza Menu", "Appetizer: Fresh Oysters on the Half Shell with Mignonette Sauce. 
+Main Course: Lobster Tail and Grilled Scallops with Saffron Risotto and Lemon Beurre Blanc. 
+Dessert: Passion Fruit Panna Cotta with Mango Coulis and Coconut Tuile.",40 , "special menus", "Seafood_Extravaganza_Menu");

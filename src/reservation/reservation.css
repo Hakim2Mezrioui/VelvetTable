@@ -1,0 +1,137 @@
+.btn-reserve {
+    background-color: rgb(176, 36, 52);
+    color: white;
+    padding: .5em 3em;
+    margin: 1em;
+    border: none;
+}
+
+.form-reservation{
+    margin-block: 10em;
+    animation: show .5s ease;
+}
+
+.form-reservation input, .form-reservation select {
+    width: 100%;
+    padding: .5em 1em;
+    border: 1px solid;
+    min-width: 20em;
+    display: block;
+
+}
+.form-reservation input:focus, .form-reservation select:focus {
+    outline: 2px solid rgb(176, 36, 52);
+    outline-offset: 1.5px;
+}
+.form-reservation label {
+    font-family: Raleway;
+
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(176, 36, 52);
+    font-size: 5em;
+    margin: 0;
+}
+
+.form-confirmation {
+    margin: auto;
+    width: fit-content;
+    margin-block: 8.5em;
+    animation: show .5s ease;
+}
+
+
+.form-confirmation input, .form-confirmation select {
+    width: 100%;
+    padding: .5em 1em;
+    border: 1px solid;
+    min-width: 20em;
+    display: block;
+
+}
+.form-confirmation input:focus, .form-confirmation select:focus {
+    outline: 2px solid rgb(176, 36, 52);
+    outline-offset: 1.5px;
+}
+.form-confirmation label {
+    font-family: Raleway;
+
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(176, 36, 52);
+    font-size: 5em;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 1050px) {
+    .form-reservation input, .form-reservation select {
+        min-width: 15em;
+    }
+    .halfBack {
+        top: 10em;
+    }
+}
+@media (max-width: 800px) {
+    .title {
+        font-size: 3em;
+    }
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-reservation input, .form-reservation select {
+        min-width: 20em;
+    }
+
+    .form-reservation, .form-confirmation {
+        margin-block: 5em;
+    }
+}
+@media (max-width: 500px) {
+    .title {
+        font-size: 2.3em;
+    }
+}
+
+.halfBack {
+    position: absolute;
+    top: 5em;
+    left: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../../assets/reservation_images/reserved.jpg");
+    opacity: .7;
+}

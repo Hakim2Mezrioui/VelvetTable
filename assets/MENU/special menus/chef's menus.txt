@@ -1,0 +1,24 @@
+CHEF'S MENUS:
+Classic Italian Menu
+$45
+Appetizer: Caprese Salad with Fresh Mozzarella and Balsamic Reduction. 
+Main Course: Homemade Ravioli Stuffed with Spinach and Ricotta, topped with Tomato Basil Sauce. 
+Dessert: Tiramisu with Layers of Espresso-Soaked Ladyfingers and Mascarpone Cream.
+
+Asian Fusion Menu
+$45
+Appetizer: Crispy Spring Rolls with Sweet Chili Dipping Sauce. 
+Main Course: Pan-Seared Sesame-Crusted Ahi Tuna with Ginger-Soy Glaze, served with Steamed Jasmine Rice and Stir-Fried Vegetables. 
+Dessert: Green Tea Matcha Cheesecake with Red Bean Paste Drizzle.
+
+Farm-to-Table Menu
+$55
+Appetizer: Seasonal Vegetable Tart with a Flaky Whole Wheat Crust. 
+Main Course: Grilled Grass-Fed Beef Tenderloin with Herb Butter, accompanied by Roasted Root Vegetables and Whipped Yukon Gold Potatoes. 
+Dessert: Warm Apple Galette with Cinnamon Crumble and Vanilla Bean Ice Cream.
+
+Seafood Extravaganza Menu
+$40
+Appetizer: Fresh Oysters on the Half Shell with Mignonette Sauce. 
+Main Course: Lobster Tail and Grilled Scallops with Saffron Risotto and Lemon Beurre Blanc. 
+Dessert: Passion Fruit Panna Cotta with Mango Coulis and Coconut Tuile.

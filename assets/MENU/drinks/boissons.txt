@@ -1,0 +1,26 @@
+Drinks:
+
+Virgin Mojito
+$5
+It is a popular mocktail that offers a burst of flavors and a delightful combination of sweet and tangy tastes.
+Mango Lassi
+$4
+Smooth and creamy beverage originating from the Indian subcontinent. It is a popular drink made with the perfect blend of ripe mangoes, yogurt, milk, and a touch of sweetness
+Fresh Fruit Smoothie
+$4
+It is a delightful and wholesome beverage made from a medley of ripe and juicy fruits. It is a popular choice for those looking to enjoy the natural flavors and nutritional benefits of fresh produce.
+Moroccan Mint Tea
+$2
+It is a simple yet refreshing blend of green tea leaves and fresh spearmint leaves, combined with hot water and a touch of sugar. The tea is brewed in a special teapot called a "BARRAD".
+Pomegranate Mocktail
+$4
+It is a refreshing drink that combines the sweet and tangy flavors of pomegranate with a variety of other ingredients for a delicious and invigorating taste.
+Freshly Squeezed Orange Juice
+$1
+It is a simple and refreshing drink that captures the natural sweetness and tanginess of freshly picked oranges.
+Virgin Strawberry Daiquiri
+$6
+It is a refreshing blend of fresh strawberries, ice, and a touch of sweetness. The ingredients are blended together until smooth, resulting in a vibrant pink beverage.
+Rose Lemonade
+$1
+It is a delightful blend of rose water, freshly squeezed lemon juice, and a touch of sweetness. 

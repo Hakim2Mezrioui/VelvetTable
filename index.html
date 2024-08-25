@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input" />
+    <button onclick="modifier()" id="modifier">add</button>
+    <button onclick="getItem()" id="modifier">get</button>
+    <button onclick="deleteItem()" id="modifier">delete</button>
+
+    <script>
+        function modifier() {
+            val= document.getElementById("input");
+            console.log(val.value);
+            // localStorage.setItem("user", val.value);
+            // sessionStorage.setItem("user", val.value);
+            expires = new Date("02-06-24");
+            console.log(expires);
+
+            document.cookie = `user=malika; expires=${expires}; path=/`;
+            // document.cookie("key=value; expiration date; path");
+            
+        }
+
+        function getItem() {
+            // val = localStorage.getItem('user');
+            // val = sessionStorage.getItem('user');
+            
+            console.log(val);
+        }
+
+        function deleteItem() {
+            // localStorage.removeItem("user");
+            // sessionStorage.removeItem("user");
+            
+        }
+    </script>
+</body>
+</html>

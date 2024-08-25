@@ -1,0 +1,234 @@
+.features {
+    display: flex;
+    padding: 3em;
+    /* margin-block: 3em; */
+    justify-content: center;
+    gap: 2em;
+    background-color: rgb(253, 240, 222);
+}
+
+.card-features {
+    width: 20em;
+    border: none;
+    outline: none;
+    margin-block: 4em;
+}
+
+.card-features img {
+    width: 20em;
+    /* box-shadow: 0 0 10px; */
+    border: .5em solid white;
+}
+
+.card-features h3 {
+    /* font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
+    /* font-size: 24px; 
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; */
+
+  /* font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px; */
+}
+
+/* .card-features h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  } */
+
+  .card-features h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.card-features p {
+    width: 100%;
+    text-align: justify;
+    height: 6em;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-features a {
+    border: none;
+    color: rgb(214, 44, 63);
+    background-color: transparent;
+}
+
+.equipe {
+    background-image: url("../../assets//home_images/jade.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.equipe .presentationEquipe {    
+    justify-content: center;
+    display: flex;
+    gap: 3em;
+}
+
+.equipe .employer {
+    background-color: rgb(255, 248, 228);
+    width: 30em;
+    text-align: center;
+    display: flex;
+    margin-block: 4em;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.equipe .presentationEquipe img {
+    border: .5em solid white;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+
+span h3{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(176, 36, 52);
+    padding: .5em 5em; 
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1.1em);
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 99%, 5% 50%, 0% 0%);
+}
+
+.equipe .presentationChefEquipe span img{
+    width: 21em;
+}
+
+/* .equipe .presentationChefEquipe {
+    display: flex;
+    padding-inline: 4em;
+    height: 88.5em;
+} */
+
+.chefEquipe {
+    width: fit-content;
+    margin: auto;
+}
+
+.chefEquipe .presentationChefEquipe p {
+    background-color: rgba(82, 82, 82, 0.521);
+    color: white;
+    padding: 3em;
+    font-size: 1em;
+    text-align: justify;
+    width: fit-content;
+    width: 760px;
+}
+
+.wrapImage{
+    height: 100%;
+    width: 50%;
+}
+/* .chefEquipe img:nth-child(2) {
+    float: right;
+    height: 100%;
+} */
+
+@media (max-width: 1600px) {
+    .equipe .employer {
+        width: 25em;
+        /* background-color: red; */
+    }
+}
+
+@media (max-width: 1400px) {
+    .equipe .presentationEquipe {
+        flex-direction: column;
+        align-items: center;
+        gap: .1em;
+        padding-block: 3em;
+        gap: 1em;
+    }
+    .equipe .employer {
+        width: 30em;
+        margin-block: 0;
+        padding-block: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .equipe .presentationEquipe {
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .equipe {
+        margin-block: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employer:first-child {
+        margin-top: 4em;
+    }
+    .employer:last-child {
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width: 1919px) {
+    .wrapImage {
+        width: 760px;
+    }
+    .equipe .presentationChefEquipe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chefEquipe .presentationChefEquipe p {
+        width: 760px;
+    }
+
+    .equipe .presentationChefEquipe {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 1100px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        padding-block: 6em;
+    }
+    .card-features {
+        margin-block: 0;
+    }
+}
+
+/* @media (max-width: 1700px) {
+    .wrapImage {
+        width: 30%;
+    }
+}*/

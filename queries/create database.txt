@@ -1,0 +1,55 @@
+create database velvettable;
+use velvettable;
+
+create table member(
+				id_member int primary key auto_increment, 
+				name varchar(45),
+				email varchar(255) unique,
+				password varchar(255),
+				status varchar(8)
+				);
+
+create table menu(
+				id_menu int primary key auto_increment,
+				title varchar(80),
+				description varchar(300),
+				price int,
+				category varchar(45),
+				path_image varchar(255),
+		                ext_image varchar(45)
+                );
+                
+create table orders(
+				id_orders int primary key auto_increment,
+				id_member int,
+				id_menu int,
+                		special_request varchar(255),
+                		quantite int(1),
+				foreign key (id_member) references member(id_member),
+				foreign key (id_menu) references menu(id_menu)
+				);
+                    
+create table reservation(
+				id_reservation int primary key auto_increment,
+				tailOfGroup varchar(1),
+				dateRev date,
+				id_member int,
+				foreign key (id_member) references member(id_member)
+        	    );
+        
+create table cart(
+				id_cart int primary key,
+				id_menu int,
+				id_member int,
+				special_request varchar(255),
+				quantite int,
+				foreign key (id_menu) references menu(id_menu),
+				foreign key (id_member) references member(id_member)
+				);
+
+create table ingredients (
+				id_ingredient int primary key auto_increment,
+				id_menu int,
+				name varchar(255),
+				foreign key(id_menu) references menu (id_menu)
+);

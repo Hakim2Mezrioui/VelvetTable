@@ -1,0 +1,486 @@
+ insert into ingredients (name, id_menu)
+ values("the Citrus sauce is very fresh and made of oranges, lime, and grapefruit. Ginger, celery, garlic, soy sauce plus fish sauce add an amazing spiciness, chili, and honey", 1);
+ insert into ingredients (name, id_menu)
+ values("Use fresh shrimp", 1);
+ insert into ingredients (name, id_menu)
+ values("Olive oil, ", 1);
+
+insert into ingredients (name, id_menu)
+ values("1 cup balsamic vinegar", 2);
+ insert into ingredients (name, id_menu)
+ values("¼ cup honey", 2);
+ insert into ingredients (name, id_menu)
+ values("3 large tomatoes, cut into 1/2-inch slices", 2);
+ insert into ingredients (name, id_menu)
+ values("1 (16 ounce) package fresh mozzarella cheese, cut into 1/4-inch slices", 2);
+ insert into ingredients (name, id_menu)
+ values("¼ teaspoon salt", 2);
+ insert into ingredients (name, id_menu)
+ values("¼ teaspoon ground black pepper", 2);
+ insert into ingredients (name, id_menu)
+ values("½ cup fresh basil leaves", 2);
+ insert into ingredients (name, id_menu)
+ values("¼ cup extra-virgin olive oil", 2);
+
+ insert into ingredients (name, id_menu)
+ values("1 pound cleaned squid, bodies cut into rings that are between ¼” - ½”, plus tentacle pieces", 3);
+ insert into ingredients (name, id_menu)
+ values("¾ cup buttermilk", 3);
+  insert into ingredients (name, id_menu)
+ values("1 cup all-purpose flour", 3);
+  insert into ingredients (name, id_menu)
+ values("1 cup cornstarch", 3);
+  insert into ingredients (name, id_menu)
+ values("1 teaspoon sea salt, plus extra for sprinkling", 3);
+   insert into ingredients (name, id_menu)
+ values("1 teaspoon Italian seasoning", 3);
+   insert into ingredients (name, id_menu)
+ values("½ teaspoon granulated onion", 3);
+   insert into ingredients (name, id_menu)
+ values("½ teaspoon granulated garlic", 3);
+   insert into ingredients (id_ingredient, name, id_menu)
+ values("¼ teaspoon black pepper", 3);
+   insert into ingredients (name, id_menu)
+ values("¼ teaspoon white pepper, plus extra for sprinkling", 3);
+   insert into ingredients (name, id_menu)
+ values("the marinada made of Olive oil,  cloves garlic pressed through garlic press, red pepper flakes, Italian seasoning, crushed tomatoes, Salt, Black pepper", 3);
+
+   insert into ingredients (name, id_menu)
+ values("2 cloves garlic, minced (about 2 teaspoons)", 4);
+    insert into ingredients (name, id_menu)
+ values("1 tablespoon extra virgin olive oil", 4);
+    insert into ingredients (name, id_menu)
+ values("1 teaspoon balsamic vinegar", 4);
+    insert into ingredients (name, id_menu)
+ values("6 to 8 fresh basil leaves, thinly sliced or chopped", 4);
+    insert into ingredients (name, id_menu)
+ values("3/4 teaspoon sea salt, more or less to taste", 2);
+    insert into ingredients (name, id_menu)
+ values("1/2 teaspoon freshly ground black pepper, more or less to taste", 4);
+    insert into ingredients (name, id_menu)
+ values("1 baguette, French bread, or similar Italian bread", 4);
+    insert into ingredients (name, id_menu)
+ values("1/4 cup olive oil", 4);
+
+    insert into ingredients (name, id_menu)
+ values("8 tablespoons (1 stick) butter, divided", 5);
+    insert into ingredients (name, id_menu)
+ values("2 large sweet onions, sliced", 5);
+   insert into ingredients (name, id_menu)
+ values("2 pounds ground beef", 5);
+    insert into ingredients (name, id_menu)
+ values("2 tablespoons beef base (such as Better than Boullion), divided", 5);
+    insert into ingredients (name, id_menu)
+ values("1 tablespoon Worcestershire sauce, divided", 5);
+    insert into ingredients (name, id_menu)
+ values("Kosher salt and black pepper, to taste", 5);
+insert into ingredients (name, id_menu)
+values("24 slider buns", 5);
+insert into ingredients (name, id_menu)
+values("12-16 ounces gruyere or swiss cheese, shredded", 5);
+insert into ingredients (name, id_menu)
+values("2 tablespoons sesame seeds", 5);
+insert into ingredients (name, id_menu)
+values("1 tablespoon fresh thyme", 5);
+insert into ingredients (name, id_menu)
+values("1 teaspoon onion powder", 5);
+insert into ingredients (name, id_menu)
+values("1 teaspoon garlic powder", 5);
+
+insert into ingredients (name, id_menu)
+values("Cream cheese", 6);
+insert into ingredients (name, id_menu)
+values("Sour cream", 6);
+insert into ingredients (name, id_menu)
+values("Mayonnaise", 6);
+insert into ingredients (name, id_menu)
+values("Garlic", 6);
+insert into ingredients (name, id_menu)
+values("Parmesan", 6);
+insert into ingredients (name, id_menu)
+values("Pepper", 6);
+insert into ingredients (name, id_menu)
+values("Canned artichokes", 6);
+insert into ingredients (name, id_menu)
+values("Frozen spinach", 6);
+
+insert into ingredients (name, id_menu)
+values("400 g coconut milk", 7);
+insert into ingredients (name, id_menu)
+values("600 g chicken thighs", 7);
+insert into ingredients (name, id_menu)
+values("1 tbsp curry powder", 7);
+insert into ingredients (name, id_menu)
+values("1 tsp white sugar", 7);
+insert into ingredients (name, id_menu)
+values("2 tsp red curry paste", 7);
+insert into ingredients (name, id_menu)
+values("1 tsp salt", 7);
+
+insert into ingredients (name, id_menu)
+values("Small mozzarella balls", 8);
+insert into ingredients (name, id_menu)
+values("Cherry tomatoes", 8);
+insert into ingredients (name, id_menu)
+values("Fresh basil leaves", 8);
+insert into ingredients (name, id_menu)
+values("Olive Oil", 8);
+insert into ingredients (name, id_menu)
+values("Balsamic glaze (or balsamic vinegar cooked down into a glaze)", 8);
+insert into ingredients (name, id_menu)
+values("Seasonings (Italian, garlic powder, salt, and red pepper flakes)", 8);
+
+insert into ingredients (name, id_menu)
+values("2 tablespoons extra-virgin olive oil", 9);
+insert into ingredients (name, id_menu)
+values("2 tablespoons ghee", 9);
+insert into ingredients (name, id_menu)
+values("1 teaspoon saffron", 9);
+insert into ingredients (name, id_menu)
+values("2 large shallots", 9);
+insert into ingredients (name, id_menu)
+values("3 cloves garlic", 9);
+insert into ingredients (name, id_menu)
+values("2 cups Arborio rice (you must use Arborio to make a proper risotto)", 9);
+insert into ingredients (name, id_menu)
+values("1 cup dry white wine (like a chardonnay) or additional broth", 9);
+insert into ingredients (name, id_menu)
+values("1/2 pound raw large or jumbo shrimp", 9);
+insert into ingredients (name, id_menu)
+values("1/2 pound fresh scallops (any size)", 9);
+insert into ingredients (name, id_menu)
+values("1/2 pound calamari rings", 9);
+insert into ingredients (name, id_menu)
+values("1 teaspoon dried oregano", 9);
+insert into ingredients (name, id_menu)
+values("1 teaspoon Italian seasoning", 9);
+insert into ingredients (name, id_menu)
+values("1 teaspoon seasoned salt", 9);
+insert into ingredients (name, id_menu)
+values("1 teaspoon black pepper", 9);
+insert into ingredients (name, id_menu)
+values("1/2 cup grated Parmesan cheese (optional)", 9);
+insert into ingredients (name, id_menu)
+values("4 cups low-sodium vegetable broth", 9);
+
+insert into ingredients (name, id_menu)
+values(" 2 fillet steaks (200-250g)", 10);
+insert into ingredients (name, id_menu)
+values("4 large baking potatoes", 10);
+insert into ingredients (name, id_menu)
+values("100g butter", 10);
+insert into ingredients (name, id_menu)
+values("100g double cream", 10);
+insert into ingredients (name, id_menu)
+values("1 tablespoon truffle paste", 10);
+insert into ingredients (name, id_menu)
+values("1 teaspoon white truffle oil", 10);
+insert into ingredients (name, id_menu)
+values("400ml beef stock ", 10);
+insert into ingredients (name, id_menu)
+values("2 large shallots", 10);
+insert into ingredients (name, id_menu)
+values("5 cloves of garlic", 10);
+insert into ingredients (name, id_menu)
+values("A few springs of thyme", 10);
+insert into ingredients (name, id_menu)
+values(" 1 tablespoon of tomato puree", 10);
+insert into ingredients (name, id_menu)
+values(" Salt and pepper", 10);
+
+insert into ingredients (name, id_menu)
+values("rack of lamb(1.1 kg)", 11);
+insert into ingredients (name, id_menu)
+values("Salt and pepper", 11);
+insert into ingredients (name, id_menu)
+values("5 tablespoons olive oil, divided", 11);
+insert into ingredients (name, id_menu)
+values("8 cloves garlic, peeled and smashed", 11);
+insert into ingredients (name, id_menu)
+values("¾ cup breadcrumb", 11);
+insert into ingredients (name, id_menu)
+values("¼ cup fresh flat-leaf parsley", 11);
+insert into ingredients (name, id_menu)
+values("1 ½ tablespoons fresh rosemary", 11);
+insert into ingredients (name, id_menu)
+values("½ cup grated parmesan cheese", 11);
+insert into ingredients (name, id_menu)
+values("1 ½ tablespoons whole grain dijon mustard", 11);
+
+insert into ingredients (name, id_menu)
+values("4 Duck Breasts", 12);
+insert into ingredients (name, id_menu)
+values("Chinese five spice powder", 12);
+insert into ingredients (name, id_menu)
+values("Olive oil", 12);
+insert into ingredients (name, id_menu)
+values("2 tbsp Honey", 12);
+insert into ingredients (name, id_menu)
+values("4 tbsp Light soy sauce", 12);
+insert into ingredients (name, id_menu)
+values("200g green beans", 12);
+insert into ingredients (name, id_menu)
+values("85g toasted Cashews", 12);
+insert into ingredients (name, id_menu)
+values("80ml Peanut oil", 12);
+insert into ingredients (name, id_menu)
+values("1 tbsp Palm Sugar", 12);
+insert into ingredients (name, id_menu)
+values("80ml Rice Wine Vinegar", 12);
+insert into ingredients (name, id_menu)
+values("Baby Herbs for garnishing", 12);
+
+insert into ingredients (name, id_menu)
+values("4 salmon fillets or steaks", 13);
+insert into ingredients (name, id_menu)
+values("1 teaspoon lemon zest", 13);
+insert into ingredients (name, id_menu)
+values("Juice of 2 lemons, about 1/4 cup", 13);
+insert into ingredients (name, id_menu)
+values("3 tablespoons vegetable oil", 13);
+insert into ingredients (name, id_menu)
+values("1 tablespoon chopped fresh dill", 13);
+insert into ingredients (name, id_menu)
+values("1 clove garlic, minced or pressed", 13);
+
+insert into ingredients (name, id_menu)
+values("450g wild mushroom", 14);
+insert into ingredients (name, id_menu)
+values("8 tbsp butter", 14);
+insert into ingredients (name, id_menu)
+values("2 small shallots, minced", 14);
+insert into ingredients (name, id_menu)
+values("4 garlic cloves, minced", 14);
+insert into ingredients (name, id_menu)
+values("2 fresh thyme sprigs", 14);
+insert into ingredients (name, id_menu)
+values("1/2 tsp salt", 14);
+insert into ingredients (name, id_menu)
+values("1/2 tsp freshly ground pepper", 14);
+insert into ingredients (name, id_menu)
+values("1 tbsp lemon juice", 14);
+insert into ingredients (name, id_menu)
+values("5 cups chicken stock (or vegetable)", 14);
+insert into ingredients (name, id_menu)
+values("1 ½ cups Arborio rice", 14);
+insert into ingredients (name, id_menu)
+values("1 cup heavy cream", 14);
+insert into ingredients (name, id_menu)
+values("1 cup freshly grated parmesan cheese", 14);
+
+insert into ingredients (name, id_menu)
+values("2tbsp Olive oil", 15);
+insert into ingredients (name, id_menu)
+values("125g Onion", 15);
+insert into ingredients (name, id_menu)
+values("300g Chicken breast", 15);
+insert into ingredients (name, id_menu)
+values("10g Coriander leaves, chopped", 15);
+insert into ingredients (name, id_menu)
+values("150g Tomato", 15);
+insert into ingredients (name, id_menu)
+values("1.5tbsp Curry powder", 15);
+insert into ingredients (name, id_menu)
+values("10g Raisins, seeded", 15);
+insert into ingredients (name, id_menu)
+values("2cubes Chicken Bouillon", 15);
+insert into ingredients (name, id_menu)
+values("400g Basmati rice", 15);
+insert into ingredients (name, id_menu)
+values("875g Water", 15);
+
+insert into ingredients (name, id_menu)
+values("2 to 4 filet mignon steaks", 16);
+insert into ingredients (name, id_menu)
+values("Salt", 16);
+insert into ingredients (name, id_menu)
+values("Extra virgin olive oil or canola oil", 16);
+insert into ingredients (name, id_menu)
+values("3 to 4 tablespoons unsalted butter, divided", 16);
+insert into ingredients (name, id_menu)
+values("2 cups full bodied red wine", 16);
+insert into ingredients (name, id_menu)
+values("Black pepper, to taste", 16);
+
+insert into ingredients (name, id_menu)
+values("⅔ cup granulated sugar", 17);
+insert into ingredients (name, id_menu)
+values("¼ cup fresh orange juice", 17);
+insert into ingredients (name, id_menu)
+values("1 package frozen unsweetened raspberries, thawed", 17);
+insert into ingredients (name, id_menu)
+values("Cooking spray", 17);
+insert into ingredients (name, id_menu)
+values("2 tablespoons granulated sugar", 17);
+insert into ingredients (name, id_menu)
+values("¾ cup fat-free milk", 17);
+insert into ingredients (name, id_menu)
+values("¼ cup half-and-half", 17);
+insert into ingredients (name, id_menu)
+values("60g unsweetened chocolate, chopped", 17);
+insert into ingredients (name, id_menu)
+values("¼ cup unsweetened cocoa", 17);
+insert into ingredients (name, id_menu)
+values("1 teaspoon vanilla extract", 17);
+insert into ingredients (name, id_menu)
+values("1 ¼ cups granulated sugar, divided", 17);
+insert into ingredients (name, id_menu)
+values("¼ cup butter, softened", 17);
+insert into ingredients (name, id_menu)
+values("3 large egg yolks", 17);
+insert into ingredients (name, id_menu)
+values("¼ cup all-purpose flour", 17);
+insert into ingredients (name, id_menu)
+values("¼ teaspoon cream of tartar", 17);
+insert into ingredients (name, id_menu)
+values("5 large egg whites", 17);
+insert into ingredients (name, id_menu)
+values("1 tablespoon powdered sugar", 17);
+insert into ingredients (name, id_menu)
+values("120 g butter", 18);
+insert into ingredients (name, id_menu)
+values("2 g salt", 18);
+insert into ingredients (name, id_menu)
+values("75 g  icing sugar", 18);
+insert into ingredients (name, id_menu)
+values("25 g ground almonds", 18);
+insert into ingredients (name, id_menu)
+values("1/2 tsp. vanilla sugar", 18);
+insert into ingredients (name, id_menu)
+values("1 egg", 18);
+insert into ingredients (name, id_menu)
+values("200 g flour", 18);
+insert into ingredients (name, id_menu)
+values("400 ml milk", 18);
+insert into ingredients (name, id_menu)
+values("1 vanilla pod (bean), split lengthwise", 18);
+insert into ingredients (name, id_menu)
+values("4 egg yolks", 18);
+insert into ingredients (name, id_menu)
+values("100 g sugar", 18);
+insert into ingredients (name, id_menu)
+values("30 g flour", 18);
+insert into ingredients (name, id_menu)
+values("30 g cornflour (cornstarch)", 18);
+insert into ingredients (name, id_menu)
+values("strawberries, raspberries, blackberries, blueberries, redcurrants for decoration", 18);
+
+insert into ingredients (name, id_menu)
+values("Strawberries", 19);
+insert into ingredients (name, id_menu)
+values("Granulated sugar", 19);
+insert into ingredients (name, id_menu)
+values("Heavy cream or heavy whipping cream", 19);
+insert into ingredients (name, id_menu)
+values("Lemon", 19);
+insert into ingredients (name, id_menu)
+values("Rose water", 19);
+
+insert into ingredients (name, id_menu)
+values("1/2 cup heavy cream", 20);
+insert into ingredients (name, id_menu)
+values("2 tablespoons powdered sugar", 20);
+insert into ingredients (name, id_menu)
+values("1 refrigerated rolled pie crust", 20);
+insert into ingredients (name, id_menu)
+values("2 medium Granny Smith apples, peeled", 20);
+insert into ingredients (name, id_menu)
+values("1/4 cup granulated sugar", 20);
+insert into ingredients (name, id_menu)
+values("1 tablespoon ground cinnamon, plus extra for dusting", 20);
+
+insert into ingredients (name, id_menu)
+values("2cups heavy or light cream, or half-and-half", 21);
+insert into ingredients (name, id_menu)
+values("1 vanilla bean, split lengthwise, or 1 teaspoon vanilla extract", 21);
+insert into ingredients (name, id_menu)
+values("⅛ teaspoon salt", 21);
+insert into ingredients (name, id_menu)
+values("5 egg yolks", 21);
+insert into ingredients (name, id_menu)
+values("½ cup sugar, more for topping", 21);
+
+insert into ingredients (name, id_menu)
+values("40 g  butter, plus extra for greasing", 22);
+insert into ingredients (name, id_menu)
+values("50 g dark chocolate, chopped", 22);
+insert into ingredients (name, id_menu)
+values("1 tsp. cocoa powder, plus extra to decorate", 22);
+insert into ingredients (name, id_menu)
+values("1 tsp. flour", 22);
+insert into ingredients (name, id_menu)
+values("2 med eggs, separated", 22);
+insert into ingredients (name, id_menu)
+values("25 g caster sugar", 22);
+insert into ingredients (name, id_menu)
+values("6 raspberries, plus extra to serve", 22);
+
+insert into ingredients (name, id_menu)
+values("Fresh lime juice", 23);
+insert into ingredients (name, id_menu)
+values("Honey Simple Syrup", 23);
+insert into ingredients (name, id_menu)
+values("Fresh mint leaves", 23);
+insert into ingredients (name, id_menu)
+values("Sparkling water", 23);
+insert into ingredients (name, id_menu)
+values("Ice", 23);
+
+insert into ingredients (name, id_menu)
+values("1 cup chopped very ripe mango", 24);
+insert into ingredients (name, id_menu)
+values("1 cup plain yogurt", 24);
+insert into ingredients (name, id_menu)
+values("1/2 cup milk", 24);
+insert into ingredients (name, id_menu)
+values("4 teaspoons honey or sugar, more or less to taste", 24);
+
+insert into ingredients (name, id_menu)
+values("1 quart strawberries, hulled", 25);
+insert into ingredients (name, id_menu)
+values("2 fresh peaches - peeled, pitted, and sliced", 25);
+insert into ingredients (name, id_menu)
+values("1 banana, broken into chunks", 25);
+insert into ingredients (name, id_menu)
+values("2 cups ice", 25);
+insert into ingredients (name, id_menu)
+values("1 cup orange-peach-mango juice", 25);
+
+insert into ingredients (name, id_menu)
+values("1 teaspoon green tea leaves", 26);
+insert into ingredients (name, id_menu)
+values("sugar as required", 26);
+insert into ingredients (name, id_menu)
+values("2 leaves mint leaves", 26);
+insert into ingredients (name, id_menu)
+values("1 1/2 cup water", 26);
+
+insert into ingredients (name, id_menu)
+values("Pomegranate juice", 27);
+insert into ingredients (name, id_menu)
+values("Mint", 27);
+insert into ingredients (name, id_menu)
+values("Lime", 27);
+insert into ingredients (name, id_menu)
+values("Soda water OR ginger ale", 27);
+
+insert into ingredients (name, id_menu)
+values("fresh oranges", 28);
+
+insert into ingredients (name, id_menu)
+values("2 large strawberries, hulled", 29);
+insert into ingredients (name, id_menu)
+values("¼ cup white sugar", 29);
+insert into ingredients (name, id_menu)
+values("¾ cup chilled lemon-lime soda", 29);
+insert into ingredients (name, id_menu)
+values("1 tablespoon lemon juice", 29);
+insert into ingredients (name, id_menu)
+values("4 cubes ice", 29);
+
+insert into ingredients (name, id_menu)
+values("Dried rose petals", 30);
+insert into ingredients (name, id_menu)
+values("Lemon juice", 30);
+insert into ingredients (name, id_menu)
+values("Sweetener or sugar", 30);

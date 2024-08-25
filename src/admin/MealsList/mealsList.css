@@ -1,0 +1,18 @@
+.dataTable  td  {
+    font-size: .8em !important;
+}
+
+#add-meal {
+    position: fixed;
+    top: 10vh;
+    background-color: white;
+    z-index: 2;
+    --width: 35em;
+    width: var(--width);
+    border-radius: .5em;
+    left: calc(50% - var(--width)/2);
+}
+
+.section-addMeal {
+    display: none;
+}

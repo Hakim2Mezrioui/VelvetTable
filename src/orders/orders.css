@@ -1,0 +1,232 @@
+.items {
+  margin-block: 5em;
+  padding: 2em 10em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  width: 25em;
+  min-width: 25em;
+  border-radius: .5em;
+  background-color: rgb(253, 229, 183);
+  overflow: hidden;
+  color: black;
+}
+
+.item:hover {
+  background-color: rgba(247, 209, 139, 0.815);
+}
+
+.item div:last-child {
+  padding: 1em 0 1em 1em;
+}
+
+.item h5 {
+  margin: 0;
+}
+
+.item img {
+  width: 8em;
+  height: 100%;
+}
+
+.confirmation {
+  position: fixed;
+  background-color: rgba(58, 58, 58, 0.541);
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+}
+
+.confirmation form {
+  --width: 40em;
+  --height: 26em;
+  height: var(--height);
+  width: var(--width);
+  background-color: white;
+  margin: auto;
+  margin-block: 2em;
+  padding: 2em;
+  position: fixed;
+  left: calc(50%  - var(--width) / 2);
+  top: calc(50% - var(--height)/2);
+}
+
+.confirmation .form-group {
+  margin-block: 1em;
+}
+
+.confirmation .form-group:last-child {
+  display: flex;
+  gap: 1em
+}
+
+.addbtn {
+  background: maroon;
+  color: white;
+  border-radius: .2em;
+  border: none;
+  padding: .5em 7em;
+}
+
+.confirmation .form-group:last-child span {
+  border: 1px solid;
+  display: flex;
+}
+
+.confirmation .form-group:last-child span button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.confirmation .form-group:last-child input {
+  border: none;
+  outline: none;
+  width: 3ch;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.hideConfirmation {
+  display: none;
+}
+
+.imgCover {
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+  object-position: center;
+  background-image: url("../../assets//order_images//pizza.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.platEntree {
+  padding: 3em 0 0 3em;
+  width: 70%;
+  margin: auto;
+}
+
+.platEntree a {
+  text-decoration: none;
+  padding: .2em .5em;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+.platEntree a:hover {
+  border-bottom: 1px solid rgb(176, 36, 52);
+  color: rgb(176, 36, 52) !important;
+}
+
+.active {
+  color: rgb(176, 36, 52) !important;
+  border-bottom: 1px solid rgb(176, 36, 52) !important;
+}
+
+span.title {
+  --width: 50em;
+  width: var(--width);
+  position: absolute;
+  background-color: white;
+  padding: 2em 5em;
+  text-align: center;
+  margin-top: 5em;
+  left: calc(50% - var(--width)/2);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title h2{
+  background-image: url("../../assets/order_images/pizza.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+  color: transparent;
+  /* background-attachment: fixed; */
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  font-family: "libre baskerville";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+@media (max-width: 1000px) {
+  span.title {
+    --width: 30em;
+  }
+  .title h2 {
+    font-size: 3em;
+  }
+}
+
+.food-items {
+  width: 100%;
+  margin: auto;
+}
+
+.food-item {
+  box-shadow: 0 0 10px 1px;
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+  align-items: center;
+  width: 30em;
+  border-radius: .5em;
+  margin: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.rating {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.food-item .description{
+  max-height: 1.2em;
+  overflow: hidden;
+  width: 50ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .7em;
+}
+.food-item .title{
+  font-size: .9em;
+  font-weight: bold;
+  overflow: hidden;
+  /* width: 15em; */
+  text-overflow: ellipsis;
+  white-space: nowrap;  
+  color:rgb(176, 36, 52);
+}
+
+.food-item .title::after {
+  content: "";
+  height: 1em;
+  width: 3em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
